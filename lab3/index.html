@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://wwww.w3.org/TR/xhtml1/DTD/xhtml1-trnsitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+	<title>Lab3</title>
+	<meta http-equiv="Content-Language" content="en" />
+	<meta http-equiv="keywords" content="keywords" />
+	<meta http-equiv="author" content="Volodymyr Kravchuk" />
+	<link type = "text/css" media="all" rel="stylesheet" href="main.css" />
+	<script src="jquery.js"></script>
+	<script src="textHints.js"></script>
+</head>
+
+<body onload="textHints.loadWords()">
+	<input type="text" id="textField" onkeyup="textHints.keyProcess()">
+	<button onclick="textHints.addWord()">Add Word</button>
+	<button onclick="textHints.deleteWord()">Delete Word</button>
+	<div id = "list"></div>
+</body>
+</html>

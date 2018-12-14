@@ -1,0 +1,85 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+#container {
+    widht:100%;
+    height: 100%;
+    background-image: url('image/bg.jpg');
+	margin: auto;
+}
+#nav {
+	height: 100px;
+	width: 600px;
+}
+#nav ul {
+	padding: 0 0 0 0;
+	padding-top: 30px;
+	text-align: center;
+	width: 100%;
+}
+ul li {
+	list-style-type: none;
+	margin-top: 20px;
+	padding: 3px 0;
+	display: inline;
+	font-size: 1.4em;
+}
+#nav ul li a {
+	padding: 0 20px;
+	line-height: 40px;
+	color: rgb(126, 118, 255);
+	text-ransform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+}
+#nav ul li a:hover, #nav ul li a.active {
+	color: rgb(167, 6, 136);
+}
+h2 {
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #333;
+	margin: 10px;
+}
+#content {
+	height: 500px;
+	border: 2px solid blue;
+}
+#content li {
+	margin: auto;
+	text-decoration: none;
+	color: #1111
+	padding: 10px 10px 40px;
+	display: block;
+	color: black;
+	font-size: 103%;
+}
+#title {
+	padding-top: 20px;
+	font-size: 4em;
+	color: rgb(167, 6, 136);
+	line-height: 1.1em;
+	letter-spacing: -0.04em;
+	text-align: center;
+}
+#header {
+	height: 100px;
+	float: right;
+	width: 743px;
+}
+#sign {
+	float: right;
+}
+#footer {
+	text-align: center;
+	height: 50px;
+}
+#sidebar {
+	width: 300px;
+	height: 50px;
+	float: left;
+}
+#pic {
+	height: 100px;
+}
